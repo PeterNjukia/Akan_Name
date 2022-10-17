@@ -1,6 +1,6 @@
 
 
-Markup :  # Heading 1 #
+Project Name:
 
 - Akan_Name
 
@@ -18,7 +18,8 @@ Markup :  # Heading 1 #
 
 Setup instructions
 - Clone code from github - https://github.com/chunuz/Akan_Name
-- Open project folder with vs code or any other editor
+- cd akan
+- Open project folder with your text editor preferably VS-code (code .)
 - Go live: Live Link via https://chunuz.github.io/Akan_Name/
 
 Technologies used

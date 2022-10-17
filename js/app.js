@@ -1,32 +1,36 @@
 
+const MALE_NAMES = ["Kwasi", 10, 20, 30, 40, 50, 60];
+const FEMALE_NAMES = ["Akosua", 70, 80, 90, 100, 110];
+const DAYS_OF_THE_WEEK = ["Sunday"];
 
-function GetAkaiDayFromUserInputs(){
-
+function getUserInputAndCalculateDay(){
     var year  = prompt("Enter year: ");
     var century = parseInt(year.substring(0, 2));
     year = parseInt(year);
     var month = parseInt(prompt("Enter month: "));
     var day = parseInt(prompt("Enter day: "));
-    let gender=prompt("Enter Male or Female");
     var dayOfTheWeek = Math.round(( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) % 7);
-    return dayOfTheWeek; 
+    return dayOfTheWeek; // 0 - 6
 }
 
+function getGender(){
+    var gender = prompt("Enter your gender:");
+    return gender;
+}
 
+function main(){
+    var day = getUserInputAndCalculateDay();
+    var gender = getGender();
+    var akanName = null;
 
-const MaleAkai = {Sunday: "Kwasi", Monday: "Kwadwo",Tuesday: "Kwabena",Wednesday: "Kwaku",Thursday:  "Yaw",Friday: "Kofi",Saturday: "Kwame"};
-const Femalekai = {Sunday: "Akosua",Monday: "Adwoa",Tuesday: "Abenaa",Wednesday: "Akua",Thursday:  "Yaa",Friday: "Afua",Saturday: "Ama"};
-
-const AkaiName = Object.values(MaleAkai)[6];
-console.log(AkaiName);
-
-for (i in MaleAkai) {
-    if (i==GetAkaiDayFromUserInputs) {
-        alert(MaleAkai[keyindex])
-    }else{
-        alert(Femalekai[keyindex])
+    if (gender.toLowerCase().startsWith("f")){
+        akanName = FEMALE_NAMES[day];
+    } else {
+        akanName = MALE_NAMES[day];
     }
-
+    alert("Your Akan name is " + akanName);
 }
+
+main()
 
 

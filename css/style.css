@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    height: 100vh;
+ 
+ }
+ 
+ .container{
+   height: 100vh;
+   display: grid;
+   grid-template-rows:repeat(2, 1fr);
+   grid-template-columns:repeat(2, 1fr);
+   grid-gap: 10px;
+   border: 1px solid red;
+   padding: 50px;
+   background-color: darkgray;
+   /* // grid-template-areas: 
+   // "box1 box2 box3"
+   // "box4 box5 box6"; */
+   justify-content:;
+   align-content:;
+ }
