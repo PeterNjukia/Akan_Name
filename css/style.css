@@ -7,7 +7,7 @@ body{
  }
  
  .container{
-   height: 110vh;
+   height: 120vh;
    display: grid;
    grid-template-rows:repeat(2, 1fr);
    grid-template-columns:repeat(2, 1fr);
