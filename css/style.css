@@ -1,13 +1,13 @@
 body{
     margin: 0px;
-    height: 150vh;
+    height: 130vh;
     background-color: darkgray;
     background-image: url(https://media.gettyimages.com/photos/ghana-traditional-kente-cloth-picture-id157308715?k=20&m=157308715&s=612x612&w=0&h=c-XqnyrCMN3rdN7xdOnpeY5EFoPVHElydnDPxzQe3kY=);
  
  }
  
  .container{
-   height: 140vh;
+   height: 120vh;
    display: grid;
    grid-template-rows:repeat(2, 1fr);
    grid-template-columns:repeat(2, 1fr);
