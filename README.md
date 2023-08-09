@@ -17,10 +17,10 @@ Project Name:
 - Peter Njukia
 
 Setup instructions
-- Clone code from github - https://github.com/chunuz/Akan_Name
+- Clone code from github - https://github.com/PeterNjukia/Akan_Name
 - cd akan
 - Open project folder with your text editor preferably VS-code (code .)
-- Go live: Live Link via https://chunuz.github.io/Akan_Name/
+- Go live: Live Link via https://PeterNjukia.github.io/Akan_Name/
 
 Technologies used
 
